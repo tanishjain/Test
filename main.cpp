@@ -26,6 +26,7 @@ int main()
             // Following the main thread wait, report on the current system status
             sys_state.report_state();
             count = 0;
+            // This is a comment
         }
         ++count;
     }
